@@ -7,8 +7,8 @@ export default function markup(base) {
         comments,
         downloads }) => {
         return ` <div class="card-photo"> 
-            < a class="gallery__item" href = "${largeImageURL}" >
-             <img src="${webformatURL}" alt="${tags}" loading="lazy" /> </a >
+            <a class="gallery__item" href = "${largeImageURL}" >
+             <img src="${webformatURL}" alt="${tags}" loading="lazy" /> </a>
               <div class="info">
               <p class="info-item">
               <b>Likes: ${likes}</b>
