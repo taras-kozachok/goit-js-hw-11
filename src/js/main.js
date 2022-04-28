@@ -8,7 +8,7 @@ const formSearch = document.querySelector('.search-form');
 const gallery = document.querySelector('.gallery');
 const searchBtn = document.querySelector('[type=submit]');
 
-const option = {
+const options = {
     simpleLightBox: {
         captions: true,
         captionData: 'alt',
