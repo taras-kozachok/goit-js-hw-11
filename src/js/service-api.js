@@ -14,7 +14,7 @@ export default class ServiceAPI {
         }
     }
     async getImages() {
-        const response = await axios.get('https://pixabay.com/api', this.options);
+        const response = await axios.get('http://pixabay.com/api', this.options);
         this.incPage();
         return response;
     }
