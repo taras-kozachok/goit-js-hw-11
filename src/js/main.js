@@ -14,7 +14,7 @@ const options = {
         captionData: 'alt',
         captionDelay: 250,
     },
-    IntersectionObserver: {
+    intersectionObserver: {
         root: null,
         threshold: 1,
     }
