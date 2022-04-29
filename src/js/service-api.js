@@ -4,17 +4,18 @@ export default class ServiceAPI {
     constructor() {
         this.options = {
             params: {
-                key: '27045563-cc1ad34e3f315d945d9d0efee',
+                key: '27075017-94980455f851d9352f8ebdcd7',
                 q: '',
                 image_type: 'photo',
-                orientation: true,
+                orientation: 'horizontal',
+                safesearch: true,
                 page: 1,
                 per_page:39
         }
         }
     }
     async getImages() {
-        const response = await axios.get('https://pixabay.com/api', this.options);
+        const response = await axios.get('https://pixabay.com/api/', this.options);
         this.incPage();
         return response;
     }

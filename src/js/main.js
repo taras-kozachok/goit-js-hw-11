@@ -11,7 +11,7 @@ const searchBtn = document.querySelector('[type=submit]');
 const options = {
     simpleLightBox: {
         captions: true,
-        captionData: 'alt',
+        captionsData: 'alt',
         captionDelay: 250,
     },
     intersectionObserver: {
